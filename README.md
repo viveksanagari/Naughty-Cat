@@ -15,6 +15,7 @@ How to use the Naughty-Cat:
 
 Clarification: 
 
-     1) steps 1 and 2 has to be done only for the first time along with steps 3 and 4, later use requires steps 3 and 4 only.  
-     2) The cat exists till the system is shutdown, If you want to stop the cat chasing you at any time run the 'stop.sh' file using "./stop.sh" in the Naughty-Cat folder.  
-    
+     1) steps 1 and 2 has to be done only for the first time along with steps 3 and 4, later use requires
+     steps 3 and 4 only.  
+     2) The cat exists till the system is shutdown, If you want to stop the cat chasing you at any time
+     run the 'stop.sh' file using "./stop.sh" in the Naughty-Cat folder.     
