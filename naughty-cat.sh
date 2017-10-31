@@ -2,6 +2,9 @@
 
 
 
+#For variable speed of the cat change the value of 's' below
+s=35
+
 echo -e "\nPlease wait..." 
 (
 sudo apt-get install pv > /dev/null
@@ -18,7 +21,7 @@ sudo apt-get install oneko > /dev/null
 show() {
 if [ "$o" == "i am a cat" ]; then
 	(	
-	oneko;
+	oneko -speed $s;
 	) &
 	echo -e "\n\n.........................................................."
 	echo -e "Now close all the tabs on the screen & play with the cat..\nHope you liked it, didn't you..?" | pv -qL 30
